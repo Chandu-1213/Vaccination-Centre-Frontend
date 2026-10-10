@@ -1,22 +1,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import PatientDashboard from "./pages/PatientDashboard";
-import AdminLogin from "./pages/AdminLogin";
-import AdminDashboard from "./pages/AdminDashboard";
-import AdminCentres from "./pages/AdminCentres";
-import AdminPatients from "./pages/AdminPatients";
-import AdminRequests from "./pages/AdminRequests";
-import AdminAppointments from "./pages/AdminAppointments";
-import PatientProfile from "./pages/PatientProfile";
-import PatientSettings from "./pages/PatientSettings";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
+import PatientDashboard from "./Pages/PatientDashboard";
+import AdminLogin from "./Pages/AdminLogin";
+import AdminDashboard from "./Pages/AdminDashboard";
+import AdminCentres from "./Pages/AdminCentres";
+import AdminPatients from "./Pages/AdminPatients";
+import AdminRequests from "./Pages/AdminRequests";
+import AdminAppointments from "./Pages/AdminAppointments";
+import PatientProfile from "./Pages/PatientProfile";
+import PatientSettings from "./Pages/PatientSettings";
 
 // New pages
-import About from "./pages/About";
-import Centres from "./pages/Centres";
-import Contact from "./pages/Contact";
+import About from "./Pages/About";
+import Centres from "./Pages/Centres";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
